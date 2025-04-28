@@ -6,7 +6,7 @@
 \usage{
 bubblebath(
   frameSize = c(50, 50),
-  circSize = seq(0.2, 5, lenght.out = 25),
+  circSize = seq(0.2, 5, length.out = 25),
   maxCircsPerRad = 10000,
   max_iter = 10000,
   density = 0.7,

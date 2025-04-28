@@ -22,7 +22,7 @@
 #' circles <- bubblebath(circSize = c(0.5, 1, 2, 3), overlap = FALSE)
 #' @export
 bubblebath <- function(frameSize = c(50, 50),
-                       circSize = seq(0.2, 5, lenght.out = 25),
+                       circSize = seq(0.2, 5, length.out = 25),
                        maxCircsPerRad = 1e4,
                        max_iter = 1e4,
                        density = 0.7,
