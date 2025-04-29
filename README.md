@@ -1,14 +1,14 @@
 # circles
  An R package for creating circles
- <img align="right" src="tools/hex.png" style="float" width="200">
+ <img align="right" src="tools/hex.png" width="200">
   <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/circles)](https://CRAN.R-project.org/package=circles)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/ryan-odea/circles/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ryan-odea/circles/actions/workflows/R-CMD-check.yaml)
   <!-- badges: end -->
-<br> 
-## Description
 A small package for drawing circles. Currently only supporting the `bubblebath` and `draw_circle` functions which creates a series of radii, emulating matlab's `bubblechart` function, and creates data for path or polygon plotting respectively.
+
+<br>
 
 ## Examples
 ```r
