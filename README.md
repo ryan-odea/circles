@@ -6,7 +6,7 @@
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/ryan-odea/circles/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ryan-odea/circles/actions/workflows/R-CMD-check.yaml)
   <!-- badges: end -->
-A small package for drawing circles. Currently only supporting the `bubblebath` and `draw_circle` functions which creates a series of radii, emulating matlab's `bubblechart` function, and creates data for path or polygon plotting respectively.
+A small package for drawing circles. Currently only supporting the `bubblebath` and `draw_circles` functions which creates a series of radii, emulating matlab's `bubblechart` function, and creates data for path or polygon plotting respectively.
 
 <br>
 
@@ -15,7 +15,7 @@ A small package for drawing circles. Currently only supporting the `bubblebath` 
 library(circles); library(ggplot2); library(data.table)
 # Create data
 data <- bubblebath()
-plotting_data <- draw_circle(data)
+plotting_data <- draw_circles(data)
 
 # Bind Fill aesthetic 
 setDT(plotting_data)
