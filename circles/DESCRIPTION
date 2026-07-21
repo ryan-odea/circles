@@ -1,15 +1,15 @@
 Package: circles
 Type: Package
 Title: A Small Package for Drawing Various Combinations of Circles
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
-    person("Ryan", "ODea", , "ryanodea@hsph.harvard.edu", role = c("aut", "cre"))
+    person("Ryan", "ODea", , "odea.ryan@outlook.com", role = c("aut", "cre"))
 References:
     Adam Danz (2020). Bubblebath.m (https://www.mathworks.com/matlabcentral/fileexchange/70348), MATLAB Central File Exchange.
 Description: This package currently
     contains the adaptation of bubblebath from 'MATLAB' and the tools to transform a
     dataframe of radii and points to plot-able paths.
-Maintainer: Ryan ODea <ryanodea@hsph.harvard.edu>
+Maintainer: Ryan ODea <odea.ryan@outlook.com>
 URL: https://github.com/ryan-odea/circles
 BugReports: https://github.com/ryan-odea/circles/issues
 License: MIT + file LICENSE
